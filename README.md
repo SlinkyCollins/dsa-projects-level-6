@@ -59,7 +59,7 @@ Stores, searches, updates, and deletes contact information using key–value pai
 
 This project is deployed using **GitHub Pages** and is publicly accessible.
 
-👉 Live Demo: *(add link here)*
+👉 Live Demo: https://slinkycollins.github.io/dsa-projects-level-6/
 
 ---
 
