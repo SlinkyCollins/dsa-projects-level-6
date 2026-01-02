@@ -1,0 +1,128 @@
+/* Base Reset & Typography */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Main Layout Card */
+body > div {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+/* Headings */
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+a {
+    display: inline-block;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form Elements */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    display: block;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+#errorMsg {
+    min-height: 24px;
+    color: #dc3545; /* System Red */
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Full width for mobile friendliness */
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Status & Output */
+body > div > span {
+    display: block;
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center; /* Centers the count under the button */
+}
+
+#visitorCount {
+    font-weight: bold;
+    color: #333;
+}
+
+#visitorList {
+    background-color: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 15px;
+    min-height: 50px;
+}
+
+/* Style for potential dynamic children inside visitorList */
+#visitorList > * {
+    display: inline-block;
+    background-color: #e9ecef;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 14px;
+    border: 1px solid #dee2e6;
+}
